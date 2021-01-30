@@ -1,0 +1,180 @@
+/* FONT LICENSE
+this typeface is (c) 2004 Igino Marini
+http://www.iginomarini.com/
+types@iginomarini.com
+iginomarini@yahoo.it
+
+This font is a nearly free font. You can use it freely but:
+
+a) If you want to use it in publications on any kind of media (paper, CDs or DVDs, web, etc.)
+you have to put in the following words as a note:
+"The Fell Types are digitally reproduced by Igino Marini. www.iginomarini.com".
+Then you have to email me and let me know where you used them so I can see your work.
+b) You can't sell the font.
+c) You can't rename the font and its contents (including outlines, kerning table and other data,
+license, copyright, links, etc).
+d) You can't put the font on a commercial CD-ROM.
+e) You can distribute it freely but not without this text file you're reading attached.
+f) You can put this font online on your own site but after having put a link to www.iginomarini.com
+nearby and having consulted me (and got my permission).
+
+Igino Marini
+*/
+@font-face {
+  font-family: 'IM FELL DW Pica';
+  src: url('fonts/fepirm2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IM FELL DW Pica';
+  src: url('fonts/fepisc2.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'IM FELL DW Pica';
+  src: url('fonts/fepiit2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding:0;
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: inherit;
+}
+
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  height:100%;
+  width:100%;
+  background-color:#F4F2E9;
+  color: #1D1B16;
+}
+
+#flex_container{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+header, main, footer{
+  flex-shrink: 0;
+}
+
+main{
+  max-width:640px;
+  margin: 50px auto;
+  padding: 0 20px;
+  flex-grow: 1;
+}
+
+main p{
+  padding: 10px;
+  font-size:18px;
+  text-align:center;
+}
+
+main a{
+  font-weight: bold;
+}
+
+main a:visited{
+  color: inherit;
+}
+
+footer {
+  background-color: #504C3F;
+  padding: 40px 0;
+  margin: 50px 0 0 0;
+  border-top: 4px solid #1d1b16;
+  color: white;
+  font-size: 14px;
+  width: 100%;
+}
+
+footer .content{
+  max-width:640px;
+  margin: 0px auto;
+  padding: 0 30px;
+
+}
+footer a{
+    font-weight: bold;
+    color: white;
+  }
+  
+footer a:visited{
+    color: inherit;
+  }
+}
+
+.ken_burs__container{
+  max-width: 450px;
+}
+
+.ken_burns__the{
+  text-align: center;
+  z-index: 1;
+}
+
+.ken_burns__the>h2{
+  font-family: 'IM FELL DW Pica';
+  text-transform: uppercase;
+}
+
+.ken_burns__main{
+  /*margin-top: -19px;*/
+  text-transform: uppercase;
+  border-top: 3px solid #1D1B16;
+  border-bottom: 3px solid #1D1B16;
+  text-align: center;
+  z-index: -1;
+}
+
+.ken_burns__main>h1{
+  font-family: 'IM FELL DW Pica';
+}
+
+#clockdiv{
+  text-align: center;
+  margin:0px auto;
+  padding: 50px 0;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  font-family: 'IM FELL DW Pica';
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+
+  font-size: 48px;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-family: 'IM FELL DW Pica';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
